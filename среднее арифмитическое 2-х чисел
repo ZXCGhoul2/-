@@ -1,0 +1,17 @@
+using System;
+class HelloWorld {
+  static void Main() {
+      float a,b, arf;
+      string q;
+    Console.WriteLine("1^^^");
+    q=Console.ReadLine();
+    a=Convert.ToInt32(q);
+    
+    Console.WriteLine("2^^^");
+    q=Console.ReadLine();
+    b=Convert.ToInt32(q);
+    Console.WriteLine("--------------------------------\n");
+    arf=(a+b)/2;
+    Console.WriteLine("aaaaaaaaa^^^"+ arf);
+  }
+}
