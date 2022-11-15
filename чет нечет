@@ -1,0 +1,15 @@
+using System;
+class HelloWorld {
+  static void Main() {
+      float a,b ;
+      string q;
+    Console.WriteLine("число");
+    q=Console.ReadLine();
+    a=Convert.ToInt32(q);
+    if(a%2==0)
+        Console.WriteLine("число делится на 2 /////////    четное");
+    else
+        Console.WriteLine("   neee четное");
+   
+  }
+}
